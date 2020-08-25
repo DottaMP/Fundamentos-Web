@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+body {
+   margin: 0;
+   padding: 0;
+}
+
+h1, h2, h4 {
+    font-family: 'Peralta', cursive;
+    color: rgb(2, 71, 117);
+    text-align: justify;
+    font-size:35px;
+ }
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    padding-top: 60px;
+}
+
+a, label, p {
+   font-family: 'Chelsea Market', cursive;
+   color: rgb(0, 0, 0);
+   text-align: justify;
+   font-size:15px;
+}
+
+nav {
+   width: 100%;
+   height: 0%;
+   font-size: 1.00em;
+   background-color: #a13a3a;
+   position: fixed;
+   top: 0;
+   z-index: 100;
+}
+
+nav ul{
+   text-align: center;
+   display: flex;
+   justify-content: flex-end;
+   padding: 0px;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav a{
+   padding: 30px 15px;
+   text-decoration: none;
+   color: #001b75;
+   font-family: 'Peralta', cursive;
+   font-size: 0.9em;
+}
+
+nav a:hover{
+   color: #37d2f8;
+}
+
+#logoGen{
+   width: 100px;
+   height: 40px;
+   margin-right: 350px;
+}
+
+#sobreGen{
+   margin-right: 100px;
+   margin-left: 100px;
+}
+
+#bg-sobre{
+   background-image: linear-gradient( rgba(224, 141, 141, 0.5), rgb(36, 8, 8, 0.2) ), url('../img/Gen.png');
+   background-repeat: no-repeat; 
+   background-size: cover; 
+}
+
+#container-sobreGen{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.text-center{
+   text-align: center;
+}
+
+#texto-sobreGen{
+   margin-right: 10px;
+}
+
+#video-sobreGen{
+   margin-left: 10px;
+   opacity: 0.7;
+}
+
+#img-react{
+   width: 300px;
+   height: 200px;
+   opacity: 0.5;
+   padding: 50px;
+   border-radius: 50%;
+}
+
+#container-sobreCurso{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   margin-right: 100px;
+   margin-left: 100px;
+}
+
+
+#container-curriculo{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+
+}
+
+#container-curriculo div{
+   border-style: groove;
+   border-color: rgb(160, 209, 255);
+   padding: 15px;
+}
+
+#container-curriculo ul{
+   list-style: none;
+   padding: 0;
+}
+
+#trabalho p{
+   text-align: justify;
+   margin-left: 200px;
+   margin-right: 200px;
+}
+
+#inscrever div.row{
+   display: flex;
+   flex-direction: column;
+   margin-top: 10px;
+}
+
+#inscrever div.row-2{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   margin-top: 10px;
+}
+
+#inscrever {
+   margin-right: 400px;
+   margin-left: 400px;
+   margin-bottom: 50px;
+}
+
+.tm-icone{
+   width: 50px;
+   height: 50px;
+}
+
+.p-30{
+   padding: 30px;
+}
+
+#container-footer{
+   display: flex;
+   justify-content: center;
+   background-color: #292336;
+}
+
+#container-copy{
+    display: flex;
+    justify-content: center;
+    background-color: #342F40;
+    font-family: 'Chelsea Market', cursive;
+    color: rgb(160, 209, 255);
+    text-align: justify;
+    font-size:15px;
+}
